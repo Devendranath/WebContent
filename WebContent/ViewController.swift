@@ -29,7 +29,7 @@ class ViewController: UIViewController {
 //
 //        let request = URLRequest(url: fileURL)
 //        webView.load(request)
-        
+         
         let url = URL(string: "https://www.google.com")!
         let request = URLRequest(url: url)
         webView.navigationDelegate = self
